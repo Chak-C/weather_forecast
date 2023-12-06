@@ -1,16 +1,19 @@
 # weather_forecast
 
-A new Flutter project.
+A new Flutter project about forecasting weather, specifically temperature and windspeed prediction, and weather classification.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a API, regression modelling and backend statistical analysis adaption.
 
-A few resources to get you started if this is your first Flutter project:
+## Current Versions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Version prototype.barely
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Models
+
+Code used for model training and conversion in [this folder](assets/development).
+
+## Notes
+
+Windows and web platforms are not supported devices for flutter_tflite 0.10.3, but data pulling using http is functional (plus button). Operational on Android but not tested on IOS devices.
